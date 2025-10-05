@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+        <title>Sonic Playground</title>
+        <!-- Bootstrap CSS Linking -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
+
+        <!-- Custom CSS Linking -->
+        <link rel="stylesheet" href="custom.css">
+
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg d-flex align-items-center">
+                <div class="container g-0 g-lg-5  my-2">
+                    <a class="navbar-brand fw-medium" href="index.html"
+                        style="margin-right: 4rem;">Sonic Playground</a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="#">Store</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#"
+                                    role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Products
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li class="container">
+                                        <a href="#"
+                                            class="dropdown-item p-2 d-flex align-items-center gap-2 lh-sm text-start w-auto">
+                                            <img src="images/ob-4-white.avif"
+                                                width="54" height="54" alt>
+                                            <div>
+                                                <strong
+                                                    class="d-block">OB-4</strong>
+                                                <small>It's our ultra thin
+                                                    'orthobook' <br> bluetooth
+                                                    loudspeaker </small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="container">
+                                        <a href="#"
+                                            class="dropdown-item p-2 d-flex align-items-center gap-2 lh-sm text-start w-auto">
+                                            <img
+                                                src="images/computer-1-orange.avif"
+                                                width="54" height="54" alt>
+                                            <div>
+                                                <strong
+                                                    class="d-block">Computer–1</strong>
+                                                <small>A mini-ITX pc chassis
+                                                    called <br>
+                                                    computer–1</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="container">
+                                        <a href="#"
+                                            class="dropdown-item p-2 d-flex align-items-center gap-2 lh-sm text-start w-auto">
+                                            <img src="images/op-1.avif"
+                                                width="54" height="54" alt>
+                                            <div>
+                                                <strong class="d-block">OP-1
+                                                    Field</strong>
+                                                <small>The all-new portable
+                                                    synth & sampler <br> with
+                                                    100+ new features</small>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="container">
+                                        <a href="products.html"
+                                            class=" dropdown-item ">View more
+                                            Products</a>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="support.html">Support</a>
+                            </li>
+                        </ul>
+                        <form class="d-none  d-lg-flex " role="search">
+                            <input class="form-control me-2" type="search"
+                                placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-dark"
+                                type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+            <section class="container hero-section mt-5">
+
+                <div class="px-4 pt-5 my-5 text-center border-bottom">
+                    <h1 class="display-4 fw-bold text-body-emphasis">New Deals
+                        Just Dropped</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4 fw-medium">New Deals Just Dropped!
+                            Discover
+                            the latest offers on your favorite products with
+                            unbeatable prices and exclusive discounts.
+                        </p>
+
+                        <div class="mb-3">
+                            <a href="#products"
+                                class="btn btn-outline-dark">Explore</a>
+                        </div>
+
+                    </div>
+                    <div class="overflow-hidden"
+                        style="max-height: 50vh;">
+                        <div class="container px-5">
+                            <img src="images/hero-image.jpg"
+                                class="img-fluid border rounded-3 shadow-lg mb-4"
+                                alt="Example image" width="700" height="500"
+                                loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="products" class="container mb-5 pt-5">
+                <h2 class="text-center mb-4">Featured products</h2>
+
+                <div class="row mb-5 pt-5">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card w-100 shadow-sm container">
+                            <img src="images/ob-4-white.avif" alt
+                                class="card-img-top">
+                            <h5 class="card-title">OB-4</h5>
+                            <p class="card-text">Portable hi-fi bluetooth
+                                loudspeaker with 40-hour battery & FM radio</p>
+
+                            <div class="d-grid gap-1 pb-2">
+                                <a href="#"
+                                    class="btn btn-outline-success">Order
+                                    Now</a>
+                                <a href="#" class="btn btn-outline-dark">Add to
+                                    Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card w-100 shadow-sm container">
+                            <img src="images/od-11-white.avif" alt
+                                class="card-img-top">
+                            <h5 class="card-title">OD-11</h5>
+                            <p class="card-text">Wireless speaker with warm
+                                Carlsson sound & multi-device support</p>
+
+                            <div class="d-grid gap-1 pb-2">
+                                <a href="#"
+                                    class="btn btn-outline-success">Order
+                                    Now</a>
+                                <a href="#" class="btn btn-outline-dark">Add to
+                                    Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card w-100 shadow-sm container">
+                            <img src="images/m-1-personal monitor.avif" alt
+                                class="card-img-top">
+                            <h5 class="card-title">M-1</h5>
+                            <p class="card-text">Compact headphones with mic for
+                                recording & sampling</p>
+
+                            <div class="d-grid gap-1 pb-2">
+                                <a href="#"
+                                    class="btn btn-outline-success">Order
+                                    Now</a>
+                                <a href="#" class="btn btn-outline-dark">Add to
+                                    Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card w-100 shadow-sm container">
+                            <img src="images/ep-133.avif" alt
+                                class="card-img-top">
+                            <h5 class="card-title">EP-133</h5>
+                            <p class="card-text">Compact sampler with 12-voice
+                                polyphony & effects</p>
+
+                            <div class="d-grid gap-1 pb-2">
+                                <a href="#"
+                                    class="btn btn-outline-success">Order
+                                    Now</a>
+                                <a href="#" class="btn btn-outline-dark">Add to
+                                    Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card w-100 shadow-sm container">
+                            <img src="images/op-1.avif" alt
+                                class="card-img-top">
+                            <h5 class="card-title">OP-1</h5>
+                            <p class="card-text">Portable synth & sampler with
+                                FM radio and motion-controlled effects</p>
+
+                            <div class="d-grid gap-1 pb-2">
+                                <a href="#"
+                                    class="btn btn-outline-success">Order
+                                    Now</a>
+                                <a href="#" class="btn btn-outline-dark">Add to
+                                    Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card w-100 shadow-sm container">
+                            <img src="images/po-12.avif" alt
+                                class="card-img-top">
+                            <h5 class="card-title">PO-12</h5>
+                            <p class="card-text">Portable 16-sound drum machine
+                                & sequencer for making beats </p>
+
+                            <div class="d-grid gap-1 pb-2">
+                                <a href="#"
+                                    class="btn btn-outline-success">Order
+                                    Now</a>
+                                <a href="#" class="btn btn-outline-dark">Add to
+                                    Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card w-100 shadow-sm container">
+                            <img src="images/TP–7 field recorder..webp" alt
+                                class="card-img-top">
+                            <h5 class="card-title">TP-7 </h5>
+                            <p class="card-text">Portable recorder with mic,
+                                speaker, USB-C & Bluetooth</p>
+
+                            <div class="d-grid gap-1 pb-2">
+                                <a href="#"
+                                    class="btn btn-outline-success">Order
+                                    Now</a>
+                                <a href="#" class="btn btn-outline-dark">Add to
+                                    Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card w-100 shadow-sm container">
+                            <img src="images/tx-6.avif" alt
+                                class="card-img-top">
+                            <h5 class="card-title">TX–6</h5>
+                            <p class="card-text">Ultra-portable 6-channel mixer
+                                with built-in effects & USB-C</p>
+
+                            <div class="d-grid gap-1 pb-2">
+                                <a href="#"
+                                    class="btn btn-outline-success">Order
+                                    Now</a>
+                                <a href="#" class="btn btn-outline-dark">Add to
+                                    Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <div class="spacer"></div>
+
+        <footer>
+            <div class="container-fluid p-2 copyright-signature">
+                <div class="d-flex flex-column flex-lg-row gap-lg-5 gap-2 align-items-center justify-content-center">
+                    <p >© 2025 Sonic Playground. All rights reserved.</p>
+                    <p class="text-center">Built with <a
+                            href="https://getbootstrap.com/"
+                            target="_blank">Bootstrap
+                            v5.3</a></p>
+                    <p class="fw-bold">Designed &amp; Developed with ❤️ by Joyal</p>
+
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
